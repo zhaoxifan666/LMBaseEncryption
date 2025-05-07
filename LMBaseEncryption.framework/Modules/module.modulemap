@@ -1,0 +1,11 @@
+framework module LMBaseEncryption {
+  umbrella header "LMBaseEncryption-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module LMBaseEncryption.Swift {
+  header "LMBaseEncryption-Swift.h"
+  requires objc
+}
